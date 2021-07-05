@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.PopularArticlesDetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.fragments.PopularArticlesDetailFragment">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginTop="@dimen/s"
+            android:layout_marginEnd="@dimen/s"
+            tools:text="There’s a Name for the Blah You’re Feeling: It’s Called Languishing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:id="@+id/tvAbstract"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/s"
+            app:layout_constraintEnd_toEndOf="@+id/tvTitle"
+            app:layout_constraintStart_toStartOf="@+id/tvTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            tools:text="The neglected middle child of mental health can dull your motivation and focus — and it may be the dominant emotion of 2021." />
+
+        <ImageView
+            android:id="@+id/ivArticleImage"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/s"
+            android:layout_marginBottom="@dimen/s"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/tvAuthor"
+            app:layout_constraintEnd_toEndOf="@+id/tvAbstract"
+            app:layout_constraintStart_toStartOf="@+id/tvAbstract"
+            app:layout_constraintTop_toBottomOf="@+id/tvAbstract"
+            tools:src="@drawable/ic_launcher_background"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:id="@+id/tvPublishedDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/s"
+            android:layout_marginBottom="@dimen/s"
+            tools:text="2021-04-26"
+            app:layout_constraintBottom_toTopOf="@+id/btnViewDetail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:id="@+id/tvAuthor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s"
+            android:layout_marginEnd="@dimen/s"
+            android:layout_marginBottom="@dimen/tiny"
+            tools:text="By Adam Grant"
+            app:layout_constraintBottom_toTopOf="@+id/tvPublishedDate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:textSize="12sp"
+            android:textColor="@color/purple_200"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/btnViewDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/s"
+            android:layout_marginBottom="@dimen/s"
+            android:textAllCaps="false"
+            android:text="@string/view_detail"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="@dimen/s" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

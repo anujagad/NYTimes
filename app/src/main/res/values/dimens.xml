@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="tiny">4dp</dimen>
+    <dimen name="xs">8dp</dimen>
+    <dimen name="s">12dp</dimen>
+    <dimen name="base">16dp</dimen>
+    <dimen name="side">20dp</dimen>
+    <dimen name="m">24dp</dimen>
+    <dimen name="l">32dp</dimen>
+    <dimen name="xl">40dp</dimen>
+    <dimen name="xxl">52dp</dimen>
+    <dimen name="xxxl">55dp</dimen>
+    <dimen name="logo_height">32dp</dimen>
+    <integer name="rotation_angle_rtl">0</integer>
+    <dimen name="red_dot_paddding">12dp</dimen>
+    <dimen name="venue_details_toolbar_tint_trigger">160dp</dimen>
+    <dimen name="venues_header_height">264dp</dimen>
+    <dimen name="venue_banner_height">202dp</dimen>
+    <dimen name="popup_number_picker_min_width">120dp</dimen>
+    <dimen name="popup_number_picker_no_decrement_min_width">72dp</dimen>
+</resources>
