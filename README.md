@@ -26,6 +26,4 @@ Application Architecture using MVVM architecture.
   6. MVVM architecture
 
 
-<b>Flow chart</b> (https://drive.google.com/file/d/1UBNVYVNqWc13pKwtb2Q7GK8qrjUo2VV_/view?usp=sharing)
-
 
