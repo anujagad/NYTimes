@@ -1,4 +1,4 @@
-package com.algorythma.retail.network.serializer
+package com.anusha.nytimes.network.serializer
 
 import com.anusha.nytimes.utils.Constants.SHORT_TIME_SLOT_DATE
 import com.google.gson.*

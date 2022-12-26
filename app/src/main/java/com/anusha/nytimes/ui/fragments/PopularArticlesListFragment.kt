@@ -1,6 +1,4 @@
 package com.anusha.nytimes.ui.fragments
-
-
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.activityViewModels

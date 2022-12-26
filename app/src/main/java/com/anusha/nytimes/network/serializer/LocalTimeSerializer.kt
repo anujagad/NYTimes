@@ -1,4 +1,4 @@
-package com.algorythma.retail.network.serializer
+package com.anusha.nytimes.network.serializer
 
 import com.google.gson.*
 import org.threeten.bp.LocalTime
